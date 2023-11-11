@@ -1,0 +1,9 @@
+.catalogue{
+    margin: 20px;
+    padding: 10px;
+    width: 70%;
+    border: 4px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
