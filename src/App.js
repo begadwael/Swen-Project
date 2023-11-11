@@ -1,20 +1,25 @@
 import './App.css';
-import Nav_bar from "./Header/Nav_bar";
-import Catalogue from "./Catalogue/Catalogue";
-import SideBar from "./SideBar/SideBar";
-import SearchBar from "./SearchBar/SearchBar";
+import SignUp from "./SignUp/SignUp";
+import Login from "./Login/Login";
+import Home from "./Home/Home";
+
 
 
 function App() {
   return (
     <div className="App">
-        <Nav_bar/>
-        {/*search*/}
-        <SearchBar/>
-        <div className={"mainBox"}>
-            <Catalogue/>
-            <SideBar/>
-        </div>
+        {/*There is no routing implemented*/}
+        {/*uncomment the component to see the page*/}
+
+
+
+        {/*<SignUp/>*/}
+
+        <Login/>
+
+        {/*<Home/>*/}
+
+
     </div>
   );
 }
