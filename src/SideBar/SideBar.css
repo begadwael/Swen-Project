@@ -1,0 +1,48 @@
+.SideBar {
+    flex: 2;
+    width: 400px;
+    height: 1000px;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 20px;
+    border: 4px solid orange;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.SideBar img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.SideBar img:hover{
+    transform: scale(1.1);
+}
+
+.SideBar p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    color: #000;
+}
+
+.SideBar button{
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+

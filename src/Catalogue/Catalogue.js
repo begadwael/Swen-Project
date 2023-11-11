@@ -9,6 +9,11 @@ const Catalogue = () => {
             <BookCard/>
             <BookCard/>
             <BookCard/>
+            <BookCard/>
+            <BookCard/>
+            <BookCard/>
+            <BookCard/>
+            <BookCard/>
         </div>
     );
 };

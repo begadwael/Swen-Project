@@ -1,4 +1,8 @@
 .catalogue{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 1000px;
+    flex: 1;
     margin: 20px;
     padding: 10px;
     width: 70%;
