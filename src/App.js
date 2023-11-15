@@ -2,6 +2,8 @@ import './App.css';
 import SignUp from "./SignUp/SignUp";
 import Login from "./Login/Login";
 import Home from "./Home/Home";
+import AdminDashboard from './AdminDashboard/AdminDashboard';
+
 
 
 
@@ -15,9 +17,9 @@ function App() {
 
         {/*<SignUp/>*/}
 
-        <Login/>
-
-        {/*<Home/>*/}
+        {/* <Login/> */}
+        <AdminDashboard/>
+        {/* <Home/> */}
 
 
     </div>

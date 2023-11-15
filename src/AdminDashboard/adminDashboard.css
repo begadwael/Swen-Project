@@ -8,15 +8,54 @@
     width: 100vh; 
 }
 
+/* Header CSS */
+#header {
+    display: flex;
+    flex-direction: row;
+    border: 4px solid orange;
+    border-radius: 8px;
+}
+
+#name {
+    flex: 10;
+    text-align: left;
+}
+
+#signIn {
+    flex-wrap: wrap;
+    flex: 18;
+    text-align: right;
+}
+
+#signIn {
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    text-align: right;
+    flex: 116;
+    margin-right: 2%;
+}
+#signOut {
+    flex-wrap: wrap;
+    text-align: right;
+    flex: 10;
+    margin-right: 2%;
+}
+#help {
+    flex: 2;
+    /* margin: 0% 0% 0% 0%; */
+    text-align: right;
+    margin-right: 2%;
+}
 #title{
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20%;
     text-align: center;
     font-size: 5em;
     color: orange;
 }
 
-
+/* Welcome CSS */
 #adminWelcome{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -25,6 +64,7 @@
     color: orange;
 }
 
+/* bottom boxes CSS */
 .container {
     display: flex;
     justify-content: space-between;
@@ -36,7 +76,8 @@
     border-radius: 10px;
     width: 30%;
     margin-left: 2%;
-
+    margin-bottom: 5%; 
+    /* ^^ this line is sufficent for all elements. */
 }
 
 #Users {
@@ -63,7 +104,8 @@
     border-radius: 10px;
     border: 2px solid orange;
     cursor: pointer;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+    margin-left: 28%;
 }
 
 .btn:hover {
@@ -82,5 +124,6 @@
     font-size: 3em;
     color: black;
     text-align: center;
+    margin: 5% 0% 10% 0%;
 }
 

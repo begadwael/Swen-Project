@@ -1,10 +1,18 @@
 import React from 'react';
-import './adminDashboard.css';
+import './AdminDashboard.css';
 
-const adminDashboard = () => {
+const AdminDashboard = () => {
     return (
         <div className="App">
-              <h2 id='title'>Admin Dashboard</h2>
+
+        <header id='header'>
+                {/* add a unique header (not the same as homepage) */}
+                <h1 id='name'>Public Kids Books</h1>
+                <h2 id='title'>Admin Dashboard</h2>
+                <h2 id='signIn'>Sign In</h2>
+                <h2 id='signOut'>Sign Out</h2>
+                <h2 id='help'>Help</h2>
+        </header>
                             {/* what does the admin dashboard: 
                                     - Allow admin to add books to the database
                                     - Allow admin to delete books from the database
@@ -47,4 +55,4 @@ const adminDashboard = () => {
     }
   
   
-  export default adminDashboard;
+  export default AdminDashboard;
