@@ -1,0 +1,86 @@
+.app {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    */
+    height: 100vh;
+    width: 100vh; 
+}
+
+#title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 5em;
+    color: orange;
+}
+
+
+#adminWelcome{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3em;
+    color: orange;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#Books {
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 2%;
+
+}
+
+#Users {
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 25%;
+
+}
+
+#Statistics {
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 30%;
+    margin-right: 2%;
+
+}
+
+.btn {
+    width: 45%;
+    background-color: white;
+    font-size: 2em;
+    color: #545454;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid orange;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+.stats {
+    font-size: 2em;
+    color: #545454;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.titles {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+
