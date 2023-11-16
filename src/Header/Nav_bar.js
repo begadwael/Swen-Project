@@ -11,10 +11,8 @@ const Nav_bar = () => {
                 <h1>PUBLIC KIDS STORIES</h1>
             </div>
             <ul className={"nav_links"}>
-                <Link to='/SignUp' element={< SignUp />}> Become A Author</Link>
-                <Link to='/SignIn' element={< Login />}> Sign In </Link>
-                <li><a href={"#"}>Become A Author</a></li>
-                <li><a href={"#"}>Sign In</a></li>
+                <li><Link to='/SignUp' element={< SignUp />}> Become A Author</Link></li>
+                <li><Link to='/SignIn' element={< Login />}> Sign In </Link></li>
                 <img className={"pfp"} src={"https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"} alt={"user"}/>
             </ul>
         </nav>

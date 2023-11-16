@@ -4,7 +4,7 @@ import './SearchBar.css';
 
 const SearchBar = () => {
     return (
-        <div id="container">
+        <div id="container" className={"shadow-5"}>
 
             <div id="search_bar">
 

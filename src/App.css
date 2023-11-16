@@ -1,3 +1,20 @@
 .mainBox{
     display: flex;
 }
+
+.vert_box{
+    display: block;
+}
+
+/*.side{*/
+/*    flex: 2;*/
+/*    width: 400px;*/
+/*    height: 800px;*/
+/*    background-color: #fff;*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: auto;*/
+/*    margin: 20px;*/
+/*    border-radius: 10px;*/
+/*    text-align: center;*/
+/*    padding: 20px 20px; */
+/*}*/

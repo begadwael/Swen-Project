@@ -4,7 +4,7 @@ import './SideBar.css'
 const SideBar = () => {
     return (
         <div>
-            <div className="SideBar">
+            <div className="SideBar shadow-5">
                 <img src="https://m.media-amazon.com/images/I/71TEJjGgHnL._SL1500_.jpg" alt="book cover" />
                 {/*book Title*/}
                 <h2>Dog Man 10: Mothering Heights (The New Blockbusting International Bestseller)</h2>

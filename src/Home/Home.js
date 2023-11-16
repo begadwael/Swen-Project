@@ -8,11 +8,17 @@ const home = () => {
     return (
         <div>
             <Nav_bar/>
-            <SearchBar/>
             <div className={"mainBox"}>
-                <Catalogue/>
-                <SideBar/>
+                <div className="vert_box">
+                    <SearchBar/>
+                    <Catalogue/>
+                </div>
+                <SideBar className={"side"}/>
             </div>
+            {/*<div className={"mainBox"}>*/}
+            {/*    <Catalogue/>*/}
+            {/*    <SideBar/>*/}
+            {/*</div>*/}
         </div>
     );
 };
