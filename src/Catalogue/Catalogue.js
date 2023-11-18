@@ -4,7 +4,7 @@ import BookCard from "../Book_card/BookCard";
 const Catalogue = () => {
     return (
         <div className={"catalogue"}>
-            <BookCard/>
+            <BookCard />
             <BookCard/>
             <BookCard/>
             <BookCard/>
