@@ -1,0 +1,98 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+    color: #ff8800; /* Orange text color */
+}
+
+.container header {
+    background-color: #ff8800; /* Orange header background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Make header fixed at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Align at the top */
+    left: 0; /* Align left */
+}
+
+#product-list {
+    margin-top: 50px; /* Add space between header and products */
+    display: inline-flex;
+    margin-top: 20%;
+    margin-left: 22%;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    justify-content: center;
+}
+
+.product fixed-item {
+    background-color: #ffeecc; /* Light orange background */
+    border: 1px solid #ffcc66; /* Light orange border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+.container .product {
+    text-align: center;
+    background-color: #ff8800; /* Orange product background */
+    border: 1px solid #ffcc66; /* Light orange border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+.container .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.container .product.fixed-item {
+    background-color: #ffeecc; 
+
+}
+
+.container button {
+    background-color: #ffcc66; /* Light orange button background */
+    color: #fff; /* White text color */
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .cart {
+    background-color: #ff8800; /* Orange cart background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 136, 0, 0.3); /* Orange box shadow */
+    position: fixed; /* Make cart fixed on the right side */
+    right: 20px; /* 20px from the right */
+    top: 80px; /* 80px from the top */
+}
+
+.container .cart button {
+    position: absolute; /* Absolute position for checkout button */
+    right: 20px; /* To the far right */
+    top: 20px; /* Align with top of cart section */
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container li {
+    border-bottom: 1px solid #ffcc66; /* Light orange border */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container li:last-child {
+    border-bottom: none;
+}
