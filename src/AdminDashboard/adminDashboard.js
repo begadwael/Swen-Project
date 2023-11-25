@@ -1,7 +1,16 @@
 import React from 'react';
 import './adminDashboard.css';
+import admin from '../db/admin.json';
 
 const AdminDashboard = () => {
+
+        // const for stats to get data from json file
+        const info1 = admin.find(item => item.id === 0);
+        const info2 = admin.find(item => item.id === 1);
+        const info3 = admin.find(item => item.id === 2);
+        const info4 = admin.find(item => item.id === 3);  
+
+
     return (
         <div className="App">
 
@@ -43,11 +52,10 @@ const AdminDashboard = () => {
                             </div>
 
                             <div id='Statistics'>
-                                    <p className='titles'>Statistics</p>
-                                    <p className='stats'>Number of Books: #</p>
-                                    <p className='stats'>Number of Users: #</p>
-                                    <p className='stats'>Number of Authors: #</p>
-                                    <p className='stats'>Books Read Today: #</p>
+                                <p className='stats'>Number of Books: {info1?.numOfBooks} books</p>
+                                <p className='stats'>Number of Users: {info2?.NumOfUsers} users</p>
+                                <p className='stats'>Number of Authors: {info3?.numOfAuthors} authors</p>
+                                <p className='stats'>Books Read Today: {info4?.bookReadToday} books</p>
                             </div>
         </div>
         </div>

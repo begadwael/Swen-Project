@@ -1,0 +1,7 @@
+[
+    { "id": 0, "numOfBooks" : "125"},
+    { "id": 1, "NumOfUsers" : "12"},
+    {"id": 2, "numOfAuthors" : "15"},
+    {"id": 3, "bookReadToday" : "80"}
+
+  ]

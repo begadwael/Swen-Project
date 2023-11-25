@@ -1,6 +1,6 @@
 import React from 'react';
 import './BookCard.css'
-const BookCard = () => {
+const BookCard = (props) => {
     return (
         <div className={"BookCard"}>
             {/*kids book img*/}
