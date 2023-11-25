@@ -1,5 +1,8 @@
 [
-    { "id": 0, "Name: " : "David Smith", "Age:" : "8" },
-    { "id": 1, "Name: " : "Sara Smith", "Age:" : "20"},
-    {"id": 2, "Name: " : "John Smith", "Age:" : "22"}
+    { "id": 0, "name" : "David Smith", "age" : "8", "email" : "d.smith@gmail.com",
+     "purchased": "10", "read" : "7", "dateJoined": "2018-01-01"},
+    { "id": 1, "name" : "Sara Smith", "age" : "20", "email" : "s.smith@hotmail.com",
+     "purchased": "20", "read" : "10", "dateJoined": "2018-01-01"},
+    {"id": 2, "name" : "John Smith", "age" : "22", "email" : "j.smith@hotmail.com",
+      "purchased": "30", "read" : "20", "dateJoined": "2018-01-01"}
   ]

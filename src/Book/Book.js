@@ -4,6 +4,9 @@ import './book.css'
 import dog_1 from "./dog_1.jpg";
 import dog_2 from "./dog_2.jpg";
 
+
+// Whole page to be redesigned in sprint 4
+// This page is a placeholder for the book page
 const Book = () => {
     return (
         <div>
