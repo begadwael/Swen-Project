@@ -1,0 +1,8 @@
+[
+  { "id": 0, "name" : "mark notBerg", "age" : "27", "email" : "m.notberg@gmail.com",
+    "Wrote": "10", "reads" : "120", "allTimeReads" : "1.2k", "dateJoined": "2018-01-01"},
+  { "id": 1, "name" : "Will snitch", "age" : "42", "email" : "w.snitch@yahoo.com",
+    "Wrote": "20", "reads" : "892", "allTimeReads" : "51.2k" , "dateJoined": "2018-01-01"},
+  {"id": 2, "name" : "Bill Doors", "age" : "53", "email" : "b.doors@outlook.com",
+    "Wrote": "30", "reads" : "12,032", "allTimeReads" : "2.1m" , "dateJoined": "2018-01-01"}
+]

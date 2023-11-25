@@ -5,8 +5,10 @@ import Home from "./Home/Home";
 import AdminDashboard from './AdminDashboard/adminDashboard';
 import Book from "./Book/Book";
 import ShoppingCart from './ShoppingCart/ShoppingCart';
+import Profile from './Profile/Profile';
 // routing stuff
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
+import Author from "./Author/Author";
 
 
 
@@ -22,6 +24,8 @@ function App() {
             <Route path='/book' element={< Book />}/>
             <Route path='/admin' element={< AdminDashboard />}/>
             <Route path='/cart' element={< ShoppingCart />}/>
+            <Route path='/profile' element={< Profile />}/>
+            <Route path='/author' element={< Author />}/>
       </Routes>
     </div>
     </BrowserRouter>

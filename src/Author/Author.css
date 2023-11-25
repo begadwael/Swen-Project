@@ -1,0 +1,37 @@
+header button {
+    background-color: #ff8800;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 900%;
+}
+
+.profile {
+    border: 1px solid #ff8800;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding-top: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.idPic {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+.profileStats {
+    border: 1px solid #ff8800;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 10%;
+    margin-right: 10%;
+
+}
