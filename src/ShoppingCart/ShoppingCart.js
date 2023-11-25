@@ -1,53 +1,63 @@
 import React from 'react';
 import './ShoppingCart.css';
+import books from '../db/books.json';
+import { Link } from 'react-router-dom';
 
 const ShoppingCart = () => {
+    const book1 = books.find(book => book.id === 0);
+    const book2 = books.find(book => book.id === 1);
+    const book3 = books.find(book => book.id === 2);
+    const bookImg = "https://images-na.ssl-images-amazon.com/images/I/51WIKlio9qL._SX258_BO1,204,203,200_.jpg";
+
     return (
         <div className="container">
-        <header>
-          <h1>Shopping Cart</h1>
-        </header>
-        
-        <section className="products" id="product-list">
-          {/* Fixed item with an image */}
-          <div className="product fixed-item">
-            <img src="book.png" alt="Book" />
-            <p>Dog Man 10: Mothering Heights (The New Blockbusting International Bestseller)<br />
-            Day Pilkey</p>
-            <p>$16.00</p>
-            <button>Add to Cart</button>
-          </div>
-  
-          {/* Flexible items (Add more items as needed) */}
-          <div className="product">
-            <img src="book1.jpg" alt="Book 1" />
-            <p>Book 1</p>
-            <p>$20.00</p>
-            <button>Add to Cart</button>
-          </div>
-  
-          <div className="product">
-            <img src="book2.jpg" alt="Book 2" />
-            <p>Book 2</p>
-            <p>$18.00</p>
-            <button>Add to Cart</button>
-          </div>
-  
-          {/* Add more flexible items as needed */}
-        </section>
-  
-        <section className="cart">
-          <h2>Shopping Cart</h2>
-          <ul id="cart-items">
-            {/* Cart items will be dynamically added here */}
-          </ul>
-          <p>Total: $<span id="total">0.00</span></p>
-          <button>Checkout</button>
-        </section>
-      </div>
+            <header>
+                <h1>Shopping Cart</h1>
+                <Link to={'/'} className='homeBtnLink'>
+                    <button className="Homebtn">Home</button>
+                </Link>
+            </header>
+            
+            <div className="books">
 
-        );
-    }
-  
-  
-  export default ShoppingCart;
+                <div className='book1'>
+                    <img className="imgs" src={book1["img"]} alt="book" />
+                    <p className='book_title'>{book1["Book 1"]}</p>
+                    <button className="btn">Buy Now</button>
+                    <button className="btn remove">Remove</button>
+                </div>
+
+                <div className='book2'>
+                    <img className="imgs" src={book2["img"]} alt="book" />
+                    <p className='book_title'>{book2["Book 2"]}</p>
+                    <button className="btn">Buy Now</button>
+                    <button className="btn remove">Remove</button>
+                </div>
+
+                <div className='book3'>
+                    <img className="imgs" src={book3["img"]} alt="book" />
+                    <p className='book_title'>{book3["Book 3"]}</p>
+                    <button className="btn">Buy Now</button>
+                    <button className="btn remove">Remove</button>
+                </div>
+
+                <div className='checkout'>
+                  <h3>Total: $100</h3>
+                  <button className="btn">Checkout</button>
+                </div>
+
+          <div className='payment_methods'>
+            <p>You can pay Via: </p>
+            <ul>
+              <li>PayPal</li>
+              <li>Visa</li>
+              <li>MasterCard</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    );
+}
+
+export default ShoppingCart;
