@@ -7,7 +7,6 @@ const ShoppingCart = () => {
     const book1 = books.find(book => book.id === 0);
     const book2 = books.find(book => book.id === 1);
     const book3 = books.find(book => book.id === 2);
-    const bookImg = "https://images-na.ssl-images-amazon.com/images/I/51WIKlio9qL._SX258_BO1,204,203,200_.jpg";
 
     return (
         <div className="container">
