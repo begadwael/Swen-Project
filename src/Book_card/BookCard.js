@@ -12,8 +12,9 @@ const BookCard = (props) => {
     const book1 = books.find(book => book.id === 0);
     const book2 = books.find(book => book.id === 1);
     const book3 = books.find(book => book.id === 2);
-    const selecedBook =  props.id;
-    if (selecedBook === 0) {
+    const selectedBook = props.id;
+
+    if (selectedBook === "0") {
         return (
             <div className={"BookCard"}>
                 {/*kids book img*/}
@@ -28,7 +29,7 @@ const BookCard = (props) => {
         );
     }
 
-    else if (selecedBook === 1) {
+    else if (selectedBook === "1") {
         return (
             <div className={"BookCard"}>
                 {/*kids book img*/}
@@ -43,7 +44,7 @@ const BookCard = (props) => {
         );
     }
 
-    else if (selecedBook === 2) {
+    else if (selectedBook === "2") {
         return (
             <div className={"BookCard"}>
                 {/*kids book img*/}
