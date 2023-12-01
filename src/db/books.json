@@ -1,8 +1,8 @@
 [
-    { "id": 0, "Book 1": "I am strong", 
+    { "id": 0, "title": "I am strong", "author":"Suzy Capozzi",
     "img": "https://m.media-amazon.com/images/I/81AteOxmsJL._SY522_.jpg" },
-    { "id": 1, "Book 2": "How to catch a star",
+    { "id": 1, "title": "How to catch a star", "author":"Suzy Capozzi",
     "img": "https://m.media-amazon.com/images/I/71lHeYslk2L._SY522_.jpg"  },
-    {"id": 2, "Book 3": "I am kind", 
+    {"id": 2, "title": "I am kind", "author":"Suzy Capozzi",
     "img": "https://m.media-amazon.com/images/I/71QzbjRml-L._SY522_.jpg"}
   ]
