@@ -1,0 +1,44 @@
+.Book_view_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: orange;
+    font-family: 'Reenie Beanie', cursive;
+
+}
+
+.Book_view_area{
+    text-align: center;
+    cursor: url(./sad_wimmpy.png), auto;
+}
+
+.vert{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25em;
+}
+
+.vert img:nth-child(1){
+    margin-bottom: 50px;
+}
+
+#img_1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    cursor: url('sad_wimmpy.png'), auto;
+
+
+}
+
+#img_2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hover_img{
+    cursor: pointer;
+}
