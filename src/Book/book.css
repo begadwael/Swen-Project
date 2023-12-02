@@ -46,6 +46,29 @@
     overflow: auto;
 }
 
+.bookdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.bookdescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+}
 
 .horizontral_img_book {
     display: flex;
@@ -87,6 +110,25 @@
 /*    column-gap: 50px;*/
 /*    text-align: justify;*/
 /*}*/
+
+
+.go-to-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid orange;
+    cursor:pointer;
+}
+
+.go-to-button:hover{
+    background-color: orange;
+    color: #fff;
+}
 
 .booktextarea::-webkit-scrollbar {
     width: 10px;
