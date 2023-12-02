@@ -9,6 +9,7 @@ import Profile from './Profile/Profile';
 // routing stuff
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
 import Author from "./Author/Author";
+import BookView from "./BookView/BookView";
 
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/cart' element={< ShoppingCart />}/>
             <Route path='/profile' element={< Profile />}/>
             <Route path='/author' element={< Author />}/>
+            <Route path='BookView' element={< BookView />}/>
       </Routes>
     </div>
     </BrowserRouter>
