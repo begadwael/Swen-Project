@@ -4,16 +4,16 @@ import BookCard from "../Book_card/BookCard";
 const Catalogue = () => {
     return (
         <div className={"catalogue"}>
-            <BookCard />
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
-            <BookCard/>
+            <BookCard id="0" />
+            <BookCard id="1"/>
+            <BookCard id="2"/>
+            <BookCard id="0" />
+            <BookCard id="1"/>
+            <BookCard id="2"/>
+            <BookCard id="0" />
+            <BookCard id="1"/>
+            <BookCard id="2"/>
+            <BookCard id="0" />
         </div>
     );
 };

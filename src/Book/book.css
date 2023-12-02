@@ -64,6 +64,19 @@
     cursor: url('cursor.jpg'), auto;
 }
 
+.star {
+    display: inline-block;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.active {
+    color: gold;
+}
 /*.booktextarea article{*/
 /*    margin: 0;*/
 /*    padding: 0;*/

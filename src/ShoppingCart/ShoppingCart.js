@@ -21,21 +21,21 @@ const ShoppingCart = () => {
 
                 <div className='book1'>
                     <img className="imgs" src={book1["img"]} alt="book" />
-                    <p className='book_title'>{book1["Book 1"]}</p>
+                    <p className='book_title'>{book1["title"]}</p>
                     <button className="btn">Buy Now</button>
                     <button className="btn remove">Remove</button>
                 </div>
 
                 <div className='book2'>
                     <img className="imgs" src={book2["img"]} alt="book" />
-                    <p className='book_title'>{book2["Book 2"]}</p>
+                    <p className='book_title'>{book2["title"]}</p>
                     <button className="btn">Buy Now</button>
                     <button className="btn remove">Remove</button>
                 </div>
 
                 <div className='book3'>
                     <img className="imgs" src={book3["img"]} alt="book" />
-                    <p className='book_title'>{book3["Book 3"]}</p>
+                    <p className='book_title'>{book3["title"]}</p>
                     <button className="btn">Buy Now</button>
                     <button className="btn remove">Remove</button>
                 </div>
